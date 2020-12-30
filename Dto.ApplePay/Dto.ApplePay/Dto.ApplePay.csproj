@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>OP-ApplePay-DTO</AssemblyName>
+    <RootNamespace>OpenPath.Dto.ApplePay</RootNamespace>
+    <PackageId>OpenPath.DTO.ApplePay</PackageId>
+    <Authors>Jason Martin</Authors>
+    <Company>OpenPath, Inc.</Company>
+    <Product>Apple Pay C# DTO's</Product>
+    <Copyright>2021</Copyright>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>Apple Pay, C#, Data Objects, .Net Standard</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>3.1.4</Version>
+    <Description>A collection of Data Transformation Objects specifically for use with C# and Apple Pay. Contains DTO's that convert perfectly to Apple Pay JSON objects and helper DTO's for Updating data in the Payment pane.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/OpenPathInc/OpenPath.DTO.ApplePay</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OpenPathInc/OpenPath.DTO.ApplePay</RepositoryUrl>
+    <AssemblyVersion>3.1.4.0</AssemblyVersion>
+    <PackageIcon>openpath.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\openpath.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
